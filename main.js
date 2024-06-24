@@ -9,6 +9,7 @@ function createGrid(gridDimensions) {
       row.classList.add("rows");
       row.style.width = 500 / gridDimensions + "px";
       row.style.height = column.style.height;
+      row.style.border = "0.5px solid black";
       column.appendChild(row);
     }
     container.appendChild(column);
