@@ -4,14 +4,42 @@
   box-sizing: border-box;
 }
 
+.grid-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-right: 48px;
+  margin-top: 28px;
+  height: 100%;
+  align-items: center;
+  gap: 15px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   border: 0.5px solid black;
   width: 500px;
+  margin: 0 auto;
 }
 
 .columns {
   display: flex;
   flex-direction: row;
+}
+
+.grid-button {
+  background-color: rgb(234, 76, 137);
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
 }
